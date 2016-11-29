@@ -25,4 +25,4 @@ Under the `src/PRCountChecker/Config/` directory you will find a class that exte
 
 ### Example post on Slack
 
-![image](https://cloud.githubusercontent.com/assets/3977724/20674343/999b4910-b556-11e6-9b74-64bf899b3193.png)
+![image](https://cloud.githubusercontent.com/assets/3977724/20727538/e10047a0-b647-11e6-98cf-cf92b9d7c96c.png)
