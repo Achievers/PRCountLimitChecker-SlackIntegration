@@ -24,5 +24,7 @@ Under the `src/PRCountChecker/Config/` directory you will find a class that exte
 `php index.php GET /run`
 
 ### Example post on Slack
+Note, the example below has the limit set to 1 for a quick test. 
+You can set this limit to anything you'd like.
 
 ![image](https://cloud.githubusercontent.com/assets/3977724/20727538/e10047a0-b647-11e6-98cf-cf92b9d7c96c.png)
