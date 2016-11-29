@@ -51,4 +51,13 @@ CMD;
         }
         return $count;
     }
+
+    /**
+     * @return string Url of the list of issues for the search query.
+     */
+    public function getListOfIssuesURL()
+    {
+        $githubSearchQuery = urlencode($this->searchQuery);
+        return "{$this->domainUrl}issues?q={$githubSearchQuery}";
+    }
 }

@@ -55,11 +55,13 @@ class Main
     public function checkAndNotifyOnLimitBreached()
     {
         $count = $this->gitHubService->getNumberOfSearchResults();
+        $issuesURL = $this->gitHubService->getListOfIssuesURL();
         $output = '';
         if ($count >= $this->config->resultsLimit) {
             $output = $this->slackService->postMessageToSlackChannel(<<<SLACKMSG
 {$this->config->slackBotMessage}
 Number of open PRs is: *{$count}*
+{$issuesURL}
 SLACKMSG
             );
         }
